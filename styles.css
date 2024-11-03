@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #292929;
+    color: white;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #013A8A;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: #1386F7;
+}
+
+.content {
+    padding: 20px;
+    /*border: 3px solid #013A8A;*/
+    border-left: 2px solid #013A8A;
+    border-right: 2px solid #013A8A;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.cust-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #013A8A;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.light-blue {
+    color: #1386F7;
+}
+
+h1 {
+    font-family: 'Tourney', cursive;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.heading {
+    font-family: 'Tourney', cursive;
+    font-weight: 900;
+}
+
+.main-text {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button-border {
+    border: 2px solid #1386F7;
+}
